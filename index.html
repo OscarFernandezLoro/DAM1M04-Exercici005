@@ -2,25 +2,59 @@
 <html lang="ca">
 <head>
   <meta charset="UTF-8">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Syriac:wght@100..900&display=swap" rel="stylesheet">
   <title>Transicions</title>
   <link rel="stylesheet" href="estils.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Syriac:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
 <body>
     <nav class="navbar">
       <ul class="nav-links">
-        <li><a href="index.html">Transicións</a></li>
-        <li><a href="galeria.html">Animacións</a></li>
+        <li><a href="index.html">Transicions</a></li>
+        <li><a href="galeria.html">Animacions</a></li>
         <li><a href="guia-estil.html">Fonts i Material Icons</a></li>
       </ul>
     </nav>
 
-    <p class="hero_t">Transicións css</p>
-    <section class="section">
-      <p class="button">tu madre, jaja</p>
-    
+    <header class="hero">
+      <h1 class="hero_t">Transicions CSS</h1>
+      <p class="hero_sub">Aprèn a donar vida als teus elements amb transicions suaus</p>
+      <button class="button">
+        <span class="material-icons-outlined">touch_app</span> Fes clic aquí
+      </button>
+    </header>
+    <section class="cards">
+  <div class="card linear">
+    <img src="assets/img/patuma-kiryu.jpg">
+    <h3>Linear</h3>
+    <p>Transició amb timing linear</p>
+  </div>
+  <div class="card ease-in">
+    <img src="assets/img/patuya-mishima.jpg">
+    <h3>Ease-in</h3>
+    <p>Transició amb timing ease-in</p>
+  </div>
+  <div class="card ease-out">
+    <img src="assets/img/pato-majima.jpg" alt="Imatge 3">
+    <h3>Ease-out</h3>
+    <p>Transició amb timing ease-out</p>
+  </div>
+  <div class="card ease-in-out">
+  <img src="assets/img/pato-solaire.jpg" alt="Imatge 4">
+  <h3>Ease-in-out</h3>
+  <p>Transició amb timing ease-in-out</p>
+</div>
+</section>
+<nav class="secondary-menu">
+  <ul>
+    <li><a href="#">No se</a></li>
+    <li><a href="#">Que</a></li>
+    <li><a href="#">Poner</a></li>
+  </ul>
+</nav>
+
 </body>
+</html>
